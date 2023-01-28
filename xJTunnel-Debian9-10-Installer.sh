@@ -341,7 +341,7 @@ ClientAliveCountMax 2
 UseDNS no
 EOFOpenSSH
 
-curl -4skL "https://raw.githubusercontent.com/noahclanman/sshbanner/main/sshbanner.txt" -o /etc/banner
+curl -4skL "https://raw.githubusercontent.com/JBPH08/xJTunnel-Script/Debian-VPS-Installer/xJTunnel-BannerMSG.txt" -o /etc/banner
 
 sed -i '/password\s*requisite\s*pam_cracklib.s.*/d' /etc/pam.d/common-password && sed -i 's|use_authtok ||g' /etc/pam.d/common-password
 
@@ -967,7 +967,7 @@ cat <<'xJTunnelOvpn' > /var/www/openvpn/index.html
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Simple OVPN Download site by Bonveio Abitona | Server by SNS -->
+<!-- Simple OVPN Download site by Bonveio Abitona | Server by JTunnel -->
 
 <head><meta charset="utf-8" /><title>xJTunnel OVPN Config Download</title><meta name="description" content="xJTunnel Server" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" /><meta name="theme-color" content="#000000" /><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"><link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet"></head><body><div class="container justify-content-center" style="margin-top:9em;margin-bottom:5em;"><div class="col-md"><div class="view"><img src="https://openvpn.net/wp-content/uploads/openvpn.jpg" class="card-img-top"><div class="mask rgba-white-slight"></div></div><div class="card"><div class="card-body"><h5 class="card-title">Config List</h5><br /><ul class="list-group">
 
@@ -1603,7 +1603,7 @@ echo -e ""
 echo -e ""
 echo -e " * Script by Bonveio"
 echo -e " * OHPServer by lfasmpao"
-echo -e " * WebSocket Server by Shinu Sterben"
+echo -e " * WebSocket Server remod by JB Anthony Loneza "
 echo -e " ©BonvScripts"
 echo -e ""
 echo -e " [Note] DO NOT RESELL THIS SCRIPT"
